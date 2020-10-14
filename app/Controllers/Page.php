@@ -4,17 +4,17 @@ class Page extends BaseController
 {
     public function about()
     {
-        echo "Halaman About";
+        echo view('about');
     }
 
     public function contact()
     {
-        echo "Halaman Contact";
+        echo view('contact');
     }
 
     public function faqs()
     {
-        echo "Halaman FAQ";
+        echo view('faqs');
     }
 }
 
